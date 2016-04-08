@@ -22,9 +22,30 @@
 			<script src="<?php print_unescaped($jsfile); ?>"></script>
 		<?php endforeach; ?>
 		<?php print_unescaped($_['headers']); ?>
+		<link rel="stylesheet" href="https://owncloud.itcommunications.sk/owncloud/core/css/style-top.css" media="screen">
 	</head>
 	<body id="<?php p($_['bodyid']);?>">
 		<?php include('layout.noscript.warning.php'); ?>
+		<div class="top-wrapper">
+			<div class="top-row">
+				<a href="https://itcommunications.sk/?page_id=32" class="backtoservices">Späť na moje služby</a>
+				<div class="username-wrapper">
+					<div class="user-ico"></div>
+					<div class="username">
+						Váš účet 
+					</div>
+					<div class="usermenu-wrapper">
+						<div class="menu-user-menu-sk-container">
+							<ul id="menu-user-menu-sk" class="usermenu">
+								<li id="menu-item-83" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-83"><a href="https://itcommunications.sk/?page_id=79">Editovať profil</a></li>
+								<li id="menu-item-210" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-32 current_page_item menu-item-210"><a href="https://itcommunications.sk/?page_id=32">Moje služby</a></li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="https://owncloud.itcommunications.sk/owncloud/core/js/scripts-top.js"></script>
 		<div class="wrapper">
 			<div class="v-align">
 				<?php if ($_['bodyid'] === 'body-login' ): ?>
