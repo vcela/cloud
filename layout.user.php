@@ -29,7 +29,7 @@
 			<script src="<?php print_unescaped($jsfile); ?>"></script>
 		<?php endforeach; ?>
 		<?php print_unescaped($_['headers']); ?>
-		<link rel="stylesheet" href="https://owncloud.itcommunications.sk/owncloud/core/css/style-top.css" media="screen">
+		<link rel="stylesheet" href="https://itcommunications.sk/owncloud/core/css/style-top.css" media="screen">
 	</head>
 	<body id="<?php p($_['bodyid']);?>">
 	<?php include('layout.noscript.warning.php'); ?>
